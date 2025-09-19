@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Page</title>
+
+    <link rel="stylesheet" href="../static/styles.css"><!--CSS-->
+</head>
+<body>  
+    <h1>Another Page</h1>
+    <a href="{{ url_for('home') }}">Go Back Home</a><br>
+
+    <div style="display: flex;">
+        <div class="emojiBox" id="laughingBox">🤣</div>
+        <div class="emojiBox" id="scaredBox">😧</div>
+        <div class="emojiBox" id="madBox">😡</div>
+    </div>
+
+    <script src="../static/index.js"></script><!--JS-->
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Page</title>
+</head>
+<body style="background-color: aliceblue;">  
+    <h1>Another Page</h1>
+    <!--Link to the Home Page, using jinja-->
+    <a href="{{ url_for('home') }}">Go Back Home</a><br>
+
+    <div style="display: flex;">
+        <div style="width: 100px; height: 100px; margin: 20px; background-color: lightgreen; display: flex; font-size: 3em;">
+            🤣
+        </div>
+        <div style="width: 100px; height: 100px; margin: 20px; background-color: lightyellow; display: flex; font-size: 3em;">
+            😧
+        </div>
+        <div style="width: 100px; height: 100px; margin: 20px; background-color: red; display: flex; font-size: 3em;">
+            😡
+        </div>
+    </div>
+</body>
+</html>
