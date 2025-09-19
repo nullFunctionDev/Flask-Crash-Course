@@ -1,0 +1,49 @@
+body{
+    height: 100vh;  /*Take up the whole screen*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 4em;
+    color: hsl(240, 55%, 17%);
+    margin: 10px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.inputBar{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border: solid hsl(240, 55%, 17%) 2px;
+    border-radius: 5px;
+    background-color: rgb(234, 248, 252);
+}
+
+#submitBtn{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: rgb(234, 248, 252);
+    background-color: hsl(240, 55%, 17%);
+    cursor: pointer;
+}
+
+#submitBtn:active{
+    color: hsl(240, 55%, 17%);
+    border: solid 2px hsl(240, 55%, 17%);
+    background-color: rgb(234, 248, 252);
+}
