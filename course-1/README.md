@@ -1,7 +1,8 @@
 # Your First Flask Web App
 ![Alt text](../thumbnails/course-1.png)
 In this [VIDEO]() we made our first python flask web application which served up an
-HTML file in our browser! Very simple site with not much interactibility, yet...
+HTML file in our browser! This file can read values from the app.py file. 
+Very simple site with not much interactibility, yet...
 <br><br>
 
 

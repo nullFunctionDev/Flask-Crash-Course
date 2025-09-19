@@ -4,10 +4,13 @@ from flask import Flask, render_template
 # Initialize the app
 app = Flask(__name__)
 
+# Store our name variable to pass it to the html file
+name = "nullFunctionDev()"
+
 # Making the Home Page
 @app.route('/')
 def home():
-    return render_template("home.html")
+    return render_template("home.html", person=name)
 
 # Another page with some elements on it
 @app.route('/another')

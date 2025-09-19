@@ -3,9 +3,10 @@ app = Flask(__name__)
 
 
 # Pages
+name = "nullFunctionDev()"
 @app.route('/')
 def home():
-    return render_template("home.html")
+    return render_template("home.html", person=name)
 
 
 @app.route('/another')
